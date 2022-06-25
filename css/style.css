@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Crimson+Text&family=Source+Code+Pro:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(251, 218, 246), rgb(144, 77, 144));
+    height: 98vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Anek Latin', sans-serif;
+    margin-bottom: 12px;
+}
+
+.logo {
+    display: block;
+    margin: 12px auto;
+    width: 75px;
+}
+
+.container{
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 4px;
+    max-width: 50%;
+    margin: auto;
+    height: 60vh;
+    padding: 13px 2px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.message{
+    background-color:#e3bbdf;
+    width: 30%;
+    max-width: 40%;
+    padding: 9px;
+    margin: 12px 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Crimson Text', serif;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    clear: both;
+    background: none;
+    border: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#send-container{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#messageInp{
+    width: 45%;
+    max-width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 9px 2px;
+    border: 2px solid black;
+}
+
+
+.btn{
+    width: 67px;
+    padding: 0px 3px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgb(255, 181, 255);
+    cursor: pointer;
+    height: 32px;
+}
+
+.btn:hover{
+    background-color: rgb(232, 153, 232);
+}
